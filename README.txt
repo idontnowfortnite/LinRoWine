@@ -37,7 +37,7 @@ $ sudo apt install --install-recommends winehq-stable
 
 Unzip the file:
 
-$ tar -xf Roblox-Installer
+$ tar -xf Roblox-Installer.tar.xz
 
 Right click the folder and run through terminal
 
