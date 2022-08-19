@@ -17,11 +17,10 @@ $ sudo apt update
 
 $ sudo apt install --install-recommends winehq-stable
 
-Unzip the file:
+Add the folder:
 
-$ tar -xf Roblox-Installer.tar.xz
-
-Right click the folder and run through terminal
+Put Roblox.sh into any folder.
+Then, open with Linux.
 
 Run the file:
 
