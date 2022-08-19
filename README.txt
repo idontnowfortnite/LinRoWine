@@ -1,34 +1,16 @@
-Go to my channel for more instructions:
-Mr. Chrome Tech
+IMPORTANT:
 
-Roblox on Chromebook (Debian 11 Bullseye)
- 
- 
-Install Wine:
+https://github.com/LinRoWine/LinRoWine
 
-$ sudo sh -c 'echo " deb https://dl.winehq.org/wine-builds/debian/ bullseye main" >> /etc/apt/sources.list.d/wine.list'
+Thank you to everyone who helped make this possible! This is using a program I made named LinRoWine, and I have recently adapted it to be specifically for Chromebooks. 
 
-$ wget -nc https://dl.winehq.org/wine-builds/winehq.key
+FOLLOW THIS TUTORIAL INSTEAD IF THE VIDEO DOESN'T WORK FOR YOU:
 
-$ sudo apt-key add winehq.key
+First you must have Wine HQ Installed. I made a video on that earlier today. Then, you must download Roblox.sh from my github page: 
+https://github.com/LinRoWine/LinRoWine
+Once you have downloaded that, make sure that you make a folder. Name it "Roblox Installation", and then put roblox.sh in it. Once that is in the folder, move it to linux. Open the file with Terminal. Then, do "bash Roblox.sh". Type in 1, then wait. Once wine shows up, do not interact with the terminal, or it will break the install. Then, install the mono packages from wine. This should take a second. Once that is done then roblox will appear. Once it is done, then select any api. This will not matter atm. Then, repeat the steps. Instead of reinstalling these times it will immediately take you to the api. Just keep changing it until LinRoWine appears. That is a bug. I am trying to fix it atm. It isn't too big though. Once it appears, install Firefox ESR by typing this into the terminal:
+sudo apt install firefox-esr
+Once you have that, open roblox in firefox and then once you choose a game roblox will open with LinRoWine. I will make a Roblox Studio video tomorrow using the same tool. 
 
-$ sudo dpkg --add-architecture i386
-
-$ sudo apt update
-
-$ sudo apt install --install-recommends winehq-stable
-
-Add the folder:
-
-Put Roblox.sh into any folder.
-Then, open with Linux.
-
-Run the file:
-
-$ bash Roblox.sh
-
-Select OpenGL for the best results.
-
-Afterwards, Install Firefox ESR:
-
-$ sudo apt install firefox-esr
+The text to speech I used is very weird, so just follow this instead. It will be way more helpful.
+:)
