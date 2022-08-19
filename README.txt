@@ -1,4 +1,5 @@
-
+Go to my channel for more instructions:
+Mr. Chrome Tech
 
 Roblox on Chromebook (Debian 11 Bullseye)
  
